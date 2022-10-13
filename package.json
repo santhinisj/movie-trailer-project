@@ -1,0 +1,27 @@
+{
+  "name": "movie-trailer-project",
+  "version": "1.0.0",
+  "description": "A project made using node and pug templates which pull data from imdb free apis and youtube free apis to show trailer and reviews about a movie and show youtube recommendations related to the movie.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhinisj/movie-trailer-project.git"
+  },
+  "author": "Santhini Sasidharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhinisj/movie-trailer-project/issues"
+  },
+  "homepage": "https://github.com/santhinisj/movie-trailer-project#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}

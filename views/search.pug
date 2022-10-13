@@ -1,0 +1,13 @@
+extends layout 
+block layout-content 
+    .container
+        h2#movie-title Movie Name : #{movie.title}
+        img(src=movie.image, alt="Movie Image" width="200px" class="img-thumbnail")
+        h2#movie-title Trailer : 
+        iframe(id="ytplayer" type="text/html" width='640' height='390' src=trailer.videoUrl frameborder='0' autoplay='autoplay')
+        #movie-reviews    
+            h2#movie-title Top User Reviews 
+            each review in reviews
+                h3#movie-title Review : #{review.username}
+                p#movie-title #{review.title}
+                p#movie-details #{review.content}

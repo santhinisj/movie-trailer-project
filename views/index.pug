@@ -1,0 +1,9 @@
+extends layout 
+block layout-content 
+  lord-icon(src="https://cdn.lordicon.com/rzrkjbrm.json" trigger="loop" colors="primary:#ed143d,secondary:#ffffff" style="width:250px;height:250px")
+  form(action="/search" method="get")
+    div(class="wrap")
+      div(class="search")  
+        input.searchTerm(type="text" name="search" placeholder="What movie are you looking for ? eg: Inception" class="searchTerm")
+        button(type="submit" value="Search" class="searchButton" aria-hidden="true")
+          i(class="fa fa-search" aria-hidden="true")

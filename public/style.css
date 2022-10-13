@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ed143d;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #ed143d;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ed143d;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ed143d;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ed143d;
+}
+
+.searchTerm:focus {
+  color: #ed143d;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ed143d;
+  background: #ed143d;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  color: #ed143d;
+  margin: 20px;
+}
+
+.navLink {
+  color: #ed143d;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#footer {
+  background: #ed143d;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.container{
+  padding: 20px;
+}
+#movie-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ed143d;
+  font-weight: 600;
+}
+
+#movie-description {
+  font-size: 20px;
+  color: #ed143d;
+  margin: 20px;
+}
+
+#movie-reviews {
+  font-size: 16px;
+  color: #ed143d;
+  margin-bottom: 5rem;
+
+}
+#movie-details{
+  font-size: 14px;
+  color: #ed143d;
+  margin-bottom: 5rem;
+}
